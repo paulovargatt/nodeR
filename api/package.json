@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paulo Vargatt <pvargatt@gmail.com> (https://vargatt.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "4.13.9",
+    "nodemon": "^1.18.4",
+    "restify": "6.3.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "5.2.13",
+    "@types/restify": "5.0.6"
+  }
+}
