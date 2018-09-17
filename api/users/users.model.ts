@@ -8,6 +8,7 @@ export class User {
         return Promise.resolve(users)
     }
 
+    
     static findById(id: string):Promise<any>{
         return new Promise(resolve => {
             const filter = users.filter(user => user.id === id)
